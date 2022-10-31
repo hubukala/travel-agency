@@ -1,0 +1,19 @@
+@import '../base/font-size.scss';
+
+.sectionNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: $fontSizeL;
+}
+
+.listNavBar {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: $fontSizeS;
+}
