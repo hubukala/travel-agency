@@ -1,3 +1,5 @@
+@import '../base/font-size.scss';
+
 .sectionHero {
     display: flex;
 }
@@ -5,6 +7,49 @@
 .heroDescription {
     width: 50%;
     align-self: center;
+    h3 {
+        font-size: $fontSizeM;
+        font-weight: 700;
+        color: #DF6951;
+        margin-bottom: 30px;
+    }
+    h2 {
+        font-family: 'Volkhov';
+        font-size: $fontSizeXXL;
+        line-height: 90px;
+        color: #181E4B;
+    }
+    p {
+        color: #5E6282;
+        line-height: 30px;
+    }
+    button {
+        font-size: $fontSizeS;
+        width: 170px;
+        height: 60px;
+        border: none;
+        border-radius: 5px;
+        background-color: #F1A501;
+        box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    }
+    .circleButtonContainer{
+        display: flex;
+        align-items: center;
+        gap: 10px
+    }
+    .circleButton {
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        background-color: #DF6951;
+        color: #FFFFFF;
+    }
+}
+
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
 
 .heroPicture {

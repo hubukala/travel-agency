@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Volkhov&display=swap');
 
 html,
 body {
@@ -22,6 +22,11 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
 }
 
 
