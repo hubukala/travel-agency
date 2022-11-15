@@ -1,0 +1,23 @@
+@import '../base/font-size.scss';
+
+.tileContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 220px;
+    height: 300px;
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    h3, p {
+        text-align: center;
+    }
+    h3 {
+        font-size: $fontSizeM;
+    }
+    p {
+        font-size: $fontSizeXS;
+    }
+}
