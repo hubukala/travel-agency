@@ -2,13 +2,15 @@
 
 .sectionCategory {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .categoryDescription {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 65px;
     h3 {
         font-size: $fontSizeS;
     }
@@ -17,4 +19,9 @@
         font-size: $fontSizeXL;
         color: #181E4B;;
     }
+}
+
+.tilesContainer {
+    display: flex;
+    flex-direction: row;
 }
