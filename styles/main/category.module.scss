@@ -1,0 +1,27 @@
+@import '../base/font-size.scss';
+
+.sectionCategory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoryDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 65px;
+    h3 {
+        font-size: $fontSizeS;
+    }
+    h1 {
+        font-family: 'Volkhov';
+        font-size: $fontSizeXL;
+        color: #181E4B;;
+    }
+}
+
+.tilesContainer {
+    display: flex;
+    flex-direction: row;
+}
