@@ -1,6 +1,7 @@
-import Header from "../components/header/header"
+import Header from "../components/header/Header"
 import Hero from "../components/main/Hero"
-import Category from "../components/main/category"
+import Category from "../components/main/Category"
+import TopDestinations from "../components/main/TopDestinations"
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <main>
         <Hero />
         <Category />
+        <TopDestinations />
       </main>
     </div>
   )
