@@ -2,6 +2,7 @@ import Header from "../components/header/Header"
 import Hero from "../components/main/Hero"
 import Category from "../components/main/Category"
 import TopDestinations from "../components/main/TopDestinations"
+import EasyAndFast from "../components/main/EasyAndFast"
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <Category />
         <TopDestinations />
+        <EasyAndFast />
       </main>
     </div>
   )
