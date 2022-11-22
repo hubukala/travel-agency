@@ -1,0 +1,14 @@
+@import '../base/font-size.scss';
+
+.tileContent {
+    display: flex;
+    gap: 20px;
+    font-size: 70px;
+}
+
+.tileDescription {
+    font-size: $fontSizeXS;
+    h5, p {
+        margin: 0;
+    }
+}
