@@ -1,5 +1,4 @@
-import React, { useRef, useState } from "react";
-import styles from '../../styles/main/testimonials.module.scss'
+import styles from '../../styles/main/testimonials.module.scss';
 import TestimonialsTile from './TestimonialsTile';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from "swiper";
