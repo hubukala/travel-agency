@@ -1,0 +1,34 @@
+@import '../base/font-size.scss';
+
+.sectionTestimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 150px;
+}
+
+.testimonials {
+    h3 {
+        font-size: $fontSizeS;
+    }
+    h1 {
+        font-family: 'Volkhov';
+        font-size: $fontSizeXL;
+        color: #181E4B;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+}
+
+.tileContainer {
+
+}
+
+.mySwiper {
+    padding: 20px;
+    width: 100%;
+    height: 80vh;
+    .swiperSlide {
+        display: flex;
+        justify-content: center;
+    }
+}
