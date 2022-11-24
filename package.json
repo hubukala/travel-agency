@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "test": "jest",
+    "dev": "next dev -p 8000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -12,7 +13,9 @@
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.55.0"
+    "react-icons": "^4.6.0",
+    "sass": "^1.55.0",
+    "swiper": "^8.4.5"
   },
   "devDependencies": {
     "eslint": "8.26.0",
