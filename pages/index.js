@@ -4,6 +4,7 @@ import Category from "../components/main/Category"
 import TopDestinations from "../components/main/TopDestinations"
 import EasyAndFast from "../components/main/EasyAndFast"
 import Testimonials from "../components/main/Testimonials"
+import Partners from "../components/main/Partners"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <TopDestinations />
         <EasyAndFast />
         <Testimonials />
+        <Partners />
       </main>
     </div>
   )
