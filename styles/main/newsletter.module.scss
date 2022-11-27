@@ -1,0 +1,41 @@
+@import '../base/font-size.scss';
+
+.newsletterBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+    background-color: #dfd7f99f;
+    border-radius: 130px 20px 20px 20px;
+    padding: 80px 100px 80px 100px;
+    h1 {
+        font-size: $fontSizeL;
+        text-align: center;
+    }
+    form {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        input {
+            width: 50%;
+            height: 60px;
+            border: none;
+            border-radius: 10px;
+            background-color: #FFFFFF;
+            text-indent: 20px;
+            font-size: $fontSizeS;
+        }
+        input:focus {
+            outline: none;
+            border: 2px solid rgb(249, 112, 0);
+        }
+        button {
+            background-color: rgb(249, 112, 0);
+            border: none;
+            border-radius: 10px;
+            width: 130px;
+            font-size: $fontSizeS;
+        }
+    }
+}
