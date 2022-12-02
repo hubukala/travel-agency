@@ -5,6 +5,7 @@ import TopDestinations from "../components/main/TopDestinations"
 import EasyAndFast from "../components/main/EasyAndFast"
 import Testimonials from "../components/main/Testimonials"
 import Partners from "../components/main/Partners"
+import Newsletter from "../components/main/Newsletter"
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <EasyAndFast />
         <Testimonials />
         <Partners />
+        <Newsletter />
       </main>
     </div>
   )
